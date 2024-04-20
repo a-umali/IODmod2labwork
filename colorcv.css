@@ -1,0 +1,26 @@
+.item1 {
+    font-family: system-ui;
+    grid-area: header;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, rgb(22, 72, 79), rgb(225, 225, 225));
+    padding: 5px;
+    text-align: justify;
+    text-shadow: 0 0 3px #DDF2FD
+  }
+.item3 {
+      font-family: system-ui;
+      grid-area: main;
+      background: white;
+      color: black;
+      text-align: justify;
+    }
+.item4 {
+  font-family: system-ui;
+  grid-area: right;
+  display:grid;
+  grid-auto-columns: max-content;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #DDF2FD;
+  text-align: justify;
+}
